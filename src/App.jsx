@@ -19,6 +19,10 @@ function App() {
         });
       }
     });
+
+    const audio = new Audio('/wave.wav'); // Caminho para o arquivo de áudio
+    audio.play();
+
   };
 
   return (
