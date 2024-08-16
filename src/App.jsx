@@ -15,7 +15,7 @@ function App() {
       if (permission === 'granted') {
         new Notification('Teste de Notificação', {
           body: 'Esta é uma notificação de teste.',
-          icon: 'https://via.placeholder.com/128', // URL de ícone de teste
+          icon: 'https://ai.softspace.com.br/favicon.svg', // URL de ícone de teste
         });
       }
     });
